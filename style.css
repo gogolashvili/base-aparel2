@@ -3,4 +3,6 @@ section {
   height: 800px;
   background-image: url("./photo/Group\ 7.png");
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
