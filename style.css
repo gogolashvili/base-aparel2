@@ -98,3 +98,12 @@ h2 {
   width: 444px;
   height: 84px;
 }
+p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  color: #f96464;
+  margin-left: 30px;
+}
