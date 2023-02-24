@@ -4,5 +4,43 @@ section {
   background-image: url("./photo/Group\ 7.png");
   margin: 0 auto;
   display: flex;
+}
+.sectdiv1 {
+  width: 58%;
+  height: 90%;
+}
+.sectdiv2 {
+  width: 52%;
+  height: 100%;
+  background-image: url("./photo/Bitmap.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.leftdiv {
+  width: 60%;
+  height: 90%;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+button {
+  width: 100px;
+  height: 56px;
+  border-radius: 35px;
+  margin-left: -50px;
+  background-color: #ee8b8b;
+  font-size: 30px;
+  border: none;
+  color: white;
+}
+input {
+  width: 445px;
+  height: 56px;
+  border-radius: 35px;
+  border: 1px solid #ce9898;
+  font-size: 25px;
+}
+.inputdiv {
+  display: flex;
 }
