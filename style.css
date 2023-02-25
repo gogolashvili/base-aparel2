@@ -11,7 +11,7 @@ section {
 }
 
 .bigsectdiv {
-  /* width: 830px; */
+  width: 830px;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -32,10 +32,9 @@ header {
   background-image: url("./photo/Bitmap.jpg");
   background-position: center;
   background-size: cover;
-  margin-left: 180px;
 }
 .leftdiv {
-  /* width: 830px; */
+  width: 830px;
   height: 650px;
   display: flex;
   flex-direction: column;
