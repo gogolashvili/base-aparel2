@@ -107,6 +107,15 @@ p {
   color: #f96464;
   margin-left: 30px;
 }
+.img1 {
+  width: 24px;
+  height: 24px;
+  display: none;
+  margin-left: 10px;
+}
+.lastdiv {
+  display: flex;
+}
 @media (max-width: 376px) {
   section {
     background-image: none;
