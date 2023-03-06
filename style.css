@@ -12,7 +12,7 @@ section {
 
 .bigsectdiv {
   width: 60%;
-  height: 800px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,14 +28,14 @@ header {
 
 .sectdiv2 {
   width: 40%;
-  height: 800px;
+  height: 100%;
   background-image: url("./photo/Bitmap.jpg");
   background-position: center;
   background-size: cover;
 }
 .leftdiv {
   width: 90%;
-  height: 650px;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,7 +166,7 @@ p {
   }
   .titlediv {
     width: 250px;
-    justify-content: center;
+    justify-content: left;
     align-content: center;
     align-items: center;
   }
@@ -175,9 +175,13 @@ p {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-left: 100px;
+    margin-left: 80px;
+    height: 25%;
   }
   button {
     margin-top: 0.8px;
+  }
+  .bigsectdiv {
+    height: 70%;
   }
 }
